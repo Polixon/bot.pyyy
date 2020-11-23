@@ -201,5 +201,5 @@ async def ban_error(ctx, error):
         await ctx.send(embed=embed)
         pass
 
-client.run(os_environ['DISCORD_TOKEN'])
+client.run(['DISCORD_TOKEN'])
 
